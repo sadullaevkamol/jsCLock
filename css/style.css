@@ -1,0 +1,61 @@
+@import url('../css/fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ds : 'digitalseven';
+    --red: rgb(199, 0, 0);
+}
+
+body {
+    background: #353535;
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(17, 17, 17);
+    border: 2px solid gray;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+}
+
+.main__set-hours {
+    color: var(--red);
+    font-family: var(--ds);
+    font-size: 100px;
+}
+.main__set-minutes {
+    color: var(--red);
+    font-family: var(--ds);
+    font-size: 100px;
+}
+
+.main__set-span {
+    color: var(--red);
+    font-family: var(--ds);
+    font-size: 60px;
+    line-height: 33px;
+}
+
+.main__set-spans {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__set-seconds {
+    color: var(--red);
+    font-family: var(--ds);
+    font-size: 50px;
+}
